@@ -1,0 +1,12 @@
+<!--category detail.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true">
+    <view class="gridview">
+      <view class="item" wx:for="{{categoryDetailData}}" wx:key="index">
+        <navigator url="{{'../categorydetailviewshow/categorydetailviewshow?viewShowTitle=' + item.id + '&viewShowImageUrl=' + item.img}}">
+          <image class="img" src="{{item.img}}" mode="aspectFill" />
+        </navigator>
+      </view>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,52 @@
+<!-- login.wxml -->
+<view class="container">
+
+  <!-- User Avatar -->
+  <view>
+    <image 
+      class="user_avatar" 
+      src="/images/ic_wallpaper.png">
+    </image>
+  </view>
+
+  <!-- User Name -->
+  <view >
+    <input 
+      class="user_name"
+      type="text" 
+      placeholder="请输入用户名" 
+      placeholder-style="color:#304E4E4E" 
+      focus="true" 
+      confirm-type="next"
+      bindinput='userNameInput' 
+      value='{{userName}}'
+      >
+    </input>
+  </view>
+
+  <!-- User Password -->
+  <view >
+    <input 
+      class="user_password"
+      type="password" 
+      placeholder="请输入密码" 
+      placeholder-style="color:#304E4E4E" 
+      focus="false" 
+      confirm-type="done"
+      bindinput='userPasswordInput' 
+      value='{{userPassword}}'
+      >
+    </input>
+  </view>
+
+  <!-- User Confirm -->
+  <view >
+    <button 
+      class="user_login"
+      bindtap="login"
+      type="primary"
+      lang="zh_CN">
+      登陆
+    </button>
+  </view>
+</view>

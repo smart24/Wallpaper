@@ -1,0 +1,48 @@
+/** login.wxss **/
+page {
+  background: linear-gradient(to bottom, #e0c3fc, #8ec5fc);
+  width: 100%;
+  height: 100%;
+}
+
+.user_avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 128rpx 128rpx 128rpx 128rpx;
+  margin-top: 256rpx;
+  background-color: #eee;
+}
+
+.user_name {
+  background-color: white;
+  margin-top: 128rpx;
+  height: 48rpx;
+  width: 140%;
+  border-radius: 48rpx 48rpx 48rpx 48rpx;
+  padding: 16rpx;
+  padding-left: 30rpx;
+  font-size: 26rpx;
+  margin-left: -25%;
+}
+
+.user_password {
+  background-color: white;
+  margin-top: 48rpx;
+  height: 48rpx;
+  width: 140%;
+  border-radius: 48rpx 48rpx 48rpx 48rpx;
+  padding: 16rpx;
+  padding-left: 30rpx;
+  font-size: 26rpx;
+  margin-left: -25%;
+}
+
+.user_login {
+  margin-top: 96rpx;
+  height: 84rpx;
+  width: 480%;
+  border-radius: 48rpx 48rpx 48rpx 48rpx;
+  padding: 16rpx;
+  font-size: 26rpx;
+  margin-left: -200%;
+}

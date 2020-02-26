@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/categoryroot/categoryroot",
+    "pages/categorydetail/categorydetail",
+    "pages/categorydetailviewshow/categorydetailviewshow",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarTitleText": "Wallpaper"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

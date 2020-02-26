@@ -1,0 +1,13 @@
+<!-- category root.wxml -->
+<view class="container">
+  <scroll-view scroll-y="true">
+    <view class="gridview">
+      <view class="item" wx:for="{{categoryData}}" wx:key="index">
+        <navigator url="{{'../categorydetail/categorydetail?categoryDetailID='+item.id + '&categoryDetailTitle=' + item.name}}">
+          <image class="img" src=" {{item.cover}}" mode="aspectFill" />
+          <text class="label">{{item.name}}</text>
+        </navigator>
+      </view>
+    </view>
+  </scroll-view>
+</view>

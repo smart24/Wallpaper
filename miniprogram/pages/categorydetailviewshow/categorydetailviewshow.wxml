@@ -1,0 +1,4 @@
+<!--category detail view show.wxml-->
+<view class="container">
+  <image class="img" src="{{imageUrl}}" mode="aspectFill" bindlongpress='saveImage'></image>
+</view>
